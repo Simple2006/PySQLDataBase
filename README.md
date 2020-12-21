@@ -3,7 +3,7 @@ Made this as a remake to my `logindb` program. This uses an SQL server and Datab
 
 `logindb` can be found here -> https://github.com/Simple2006/logindb (It's a little textfile database I made)
 
-`python -m pip install mysql-connector-python`
+Install MySql Connector with `python -m pip install mysql-connector-python`
 
 1. Make sure you have your MySQL server setup before running!
 2. Make sure you have your database created!
