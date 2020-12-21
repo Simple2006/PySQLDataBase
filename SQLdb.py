@@ -2,10 +2,10 @@ import mysql.connector as mysql
 
 try:
     mydb = mysql.connect(
-        host = "localhost",
-        user = "root_vinay",
-        password = "Mathpro123",
-        database = "mydatabase"
+        host = "",
+        user = "",
+        password = "",
+        database = ""
     )
 except:
     print("Connection Failed")
@@ -22,8 +22,8 @@ if isEmpty == True:
 elif isEmpty == False:
     print("Result is Empty!\n---------------------------------------------")
 
-mycursor.execute("DELETE FROM loginInfo WHERE email = 'vinayven01@gmail.com'")
-mydb.commit()
+#mycursor.execute("DELETE FROM loginInfo WHERE email = ''")
+#mydb.commit()
 
 def register():
     name250 = False
