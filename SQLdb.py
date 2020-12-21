@@ -13,14 +13,14 @@ except:
 mycursor = mydb.cursor()
 #mycursor.execute("CREATE TABLE loginInfo (name VARCHAR(250), birthdate VARCHAR(11), email VARCHAR(40), username VARCHAR(20), password VARCHAR(250))")
 #RUN THIS IF YOU ARE RUNNING IT FOR THE FIRST TIME!!!!! AFTER RUNNING IT ONCE, COMMENT IT OUT!!!!!
-mycursor.execute("SELECT * FROM loginInfo")
-my_result = mycursor.fetchall()
-isEmpty = bool(my_result)
-if isEmpty == True:
-    for i in my_result:
-        print(i)
-elif isEmpty == False:
-    print("Result is Empty!\n---------------------------------------------")
+#mycursor.execute("SELECT * FROM loginInfo")
+#my_result = mycursor.fetchall()
+#isEmpty = bool(my_result)
+#if isEmpty == True:
+#    for i in my_result:
+#        print(i)
+#elif isEmpty == False:
+#    print("Result is Empty!\n---------------------------------------------")
 
 #mycursor.execute("DELETE FROM loginInfo WHERE email = ''")
 #mydb.commit()
